@@ -1,0 +1,51 @@
+#top{
+     position: relative;
+     width:100%;
+	 height:50px;
+	 background:#c0c0c0;
+	 padding: 5px 20px;
+}
+
+#navbar{
+    position: absolute;
+    right: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+	font-size: 1.2em;
+}
+#navbar ul li{
+  float: left;/*设置浮动而不是 inline，否则没有前面的圆点*/
+  margin: 0px 15px;
+  font-weight: bold;
+  
+}
+
+.boxl{
+float:left;
+width:60%;
+height:100%;
+margin:-25px 15px;
+background:#6cf;
+border:2px solid #c00;
+border-radius:30px;
+}
+.minbox{
+margin:5px 5px;
+}
+
+.row2{
+margin:-20px 15px;
+
+}
+
+
+.bottom{
+    width:100%;
+    height: 30px;
+    background: #1C1C1C;
+    margin:0 auto;
+    color: red;
+    position:fixed;
+	bottom:0;
+    text-align:center;
+}
