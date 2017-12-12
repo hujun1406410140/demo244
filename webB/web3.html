@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bilibili</title>
+</head>
+  <style>
+      *{margin:0;padding:0;}
+      .top{width:100%;height:180px;background:url("images/65098419_p0.png"); }
+      .top .a{width:100%;height: 38px;background: rgba(255,255,255,0.5);}
+      .top .a .b {width:1000px;height:38px;margin:0 auto;}
+      /*  margin：0 0 0 0上 右 下 左 margin：0 0 上下 左右  */
+       .top .a .b ul li{width:50px;height:38px;dotted :#000;
+        float: left;/*左浮动*/list-style: none;/*取消小圆点*/
+       line-height: 38px;/*上下居中*/text-align: center;/*左右居中*/
+           font-size: 16px;font-family: 微软雅黑;font-weight: bold;}
+      .top .a .b ul.left{float: left;}
+      .top .a .b ul.right{float:right;}
+      .top .a .b ul li:hover{background: rgba(255,255,255,0.5);}
+      .top .a .b ul li a{text-decoration:none;/*取消下划线*/width:50px;height:38px;display:block;color: black;}
+      .top .a .b ul li.tougao{height:55px;background: deeppink;border-radius:0 0 15px 15px;}
+      .top .a .b ul li.tougao a{height:50px;width:50px;display:block;}
+  </style>
+<body>
+   <div class="top">
+       <div class="a">
+           <div class="b">
+               <ul class="left">
+                   <a href="#"style="float:left;"><img src="images/favicon.ico"></a>
+                   <li><a href="#">主站</a></li>
+                   <li><a href="#">画友</a></li>
+                   <li><a href="#">游戏中心</a></li>
+                   <li><a href="#">直播</a></li>
+                   <li><a href="#">会员购</a></li>
+                   <li><a href="#">周边</a></li>
+                   <li><a href="#">移动端</a></li>
+               </ul>
+               <ul class="right">
+                   <li><a href="#">大会员</a></li>
+                   <li><a href="#">消息</a></li>
+                   <li><a href="#">动态</a></li>
+                   <li><a href="#">稍后再看</a></li>
+                   <li><a href="#">收藏夹</a></li>
+                   <li><a href="#">历史</a></li>
+                   <li class="tougao"><a href="#">投稿</a></li>
+               </ul>
+
+           </div>
+
+       </div>
+   </div>
+</body>
+</html>
